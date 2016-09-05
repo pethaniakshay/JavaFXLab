@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="passdatabtwscenes.FXMLDocumentController">
+    <children>
+        <Button fx:id="btn" layoutX="133.0" layoutY="108.0" onAction="#SubmitEvent" text="Submit" />
+      <TextField fx:id="gname" layoutX="86.0" layoutY="29.0" promptText="First Name" />
+      <TextField fx:id="gage" layoutX="86.0" layoutY="61.0" promptText="Age" />
+    </children>
+</AnchorPane>
